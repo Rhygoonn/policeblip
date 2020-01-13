@@ -36,7 +36,7 @@ AddEventHandler('ref:addBlip', function(id)
 			if pedUser == GetPlayerPed(-1) then
 				ESX.ShowNotification('Your reference has been activated.')
 			else
-				ESX.ShowNotification('A police has been activate a reference.')
+				ESX.ShowNotification('A police has activated a reference.')
 			end
 			
 
@@ -45,7 +45,7 @@ AddEventHandler('ref:addBlip', function(id)
 			if pedUser == GetPlayerPed(-1) then
 				ESX.ShowNotification('Your reference has been deactivated.')
 			else
-				ESX.ShowNotification('A police has been deactivate a reference.')
+				ESX.ShowNotification('A police has deactivated a reference.')
 			end
 		end
 	end
